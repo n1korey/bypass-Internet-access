@@ -25,8 +25,8 @@
 > На данный момент Google Shell может плохо работать из-за нагрузки
 
 
-# Использование zapret-wins (dpi+udp+tcp) (only windows)
-> Самый эффективный, поскольку не влияет на пинг
+# Использование zapret-wins (dpi+udp+tcp)
+> Самый эффективный, поскольку не влияет на пинг (only windows)
 - Способ от Flowseal [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) либо:
 
 * Скачиваем архив [zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle/archive/refs/heads/master.zip)
