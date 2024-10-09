@@ -32,5 +32,6 @@
 * Скачиваем архив [zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle/archive/refs/heads/master.zip)
 * Разархивируем, переходим по пути `zapret-win-bundle-master\zapret-winws`
 * Перекидываем в эту папку файлы из этого репозитория
+* Запускаем файл `preset_my.cmd`
 
 > Антивирусы могут ругаться на файл WinDivert
