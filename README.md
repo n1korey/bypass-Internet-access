@@ -12,18 +12,39 @@
 и нажимаем в блоке `Blank` -> `Use this template`, ждём загрузки терминал
 
 * Вставляем в терминал команду: `curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash`
-* Переходим по ссылке, которую дадут снизу сообщения (там где "Скачать конфиг файлом"), скачиваем файл
+* Переходим по ссылке, которую дадут снизу сообщения (там где "Скачать конфиг файлом"), скачиваем файл `WARP.conf`
 * Переносим этот файл в приложение AmneziaWG и подключаемся
 ### С помощью AmneziaWG через Google Shell
 
 * Переходим в консоль [Google](https://shell.cloud.google.com/?pli=1&show=ide%2Cterminal)
 
 * Вставляем в терминал команду: `curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash`
-* В консоли появится ссылка, на файл WARP.conf — скачиваем
+* В консоли появится ссылка, на файл `WARP.conf` — скачиваем
 * Переносим этот файл в приложение AmneziaWG и подключаемся
 
 > На данный момент Google Shell может плохо работать из-за нагрузки
 
+### Дополнительный способ через WireSock VPN + WireSockUI
+
+> Может не сработать
+
+* Скачиваем [WireSock VPN Client](https://www.wiresock.net/sdc_download/1066/?key=7dgnyow9g0nju36l7to4wtlwy3zpca)
+* Вместе с ним скачиваем [WireSockUI](https://github.com/wiresock/WireSockUI/releases/download/v0.2.8/WireSockUI-v0.2.8-AnyCPU-no-uwp.zip)
+
+- Устанавливем WireSock VPN Client
+- WireSockUI необходимо разархивировать
+
+* Переходим либо в [codespaces](https://github.com/codespaces) (в блоке `Blank` -> `Use this template`, ждём загрузки терминал),
+* Либо в [Google](https://shell.cloud.google.com/?pli=1&show=ide%2Cterminal) как из способов выше
+
+- Вставляем команду: `curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash`
+
+* Скачиваем файл `WARP.conf`, который дадут нам в консоли
+* Открываем этот файл любым способом (Блокнот, VSCode и т.д), вставляем в самый конец файла: `AllowedApps = Discord`
+
+- Открываем файл `WireSockUI.exe`, из папки, куда мы переместили (or разархивировали) программу
+- Ищем кнопку `Add Tunnel` и добавляем файл `WARP.conf`
+- Далее `Activate`
 
 # Использование zapret-wins (dpi+udp+tcp)
 > Самый эффективный, поскольку не влияет на пинг (only windows)
