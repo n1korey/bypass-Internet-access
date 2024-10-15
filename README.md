@@ -7,6 +7,8 @@
 
 ### С помощью AmneziaWG через GitHub
 
+> На данный момент может перестать работать
+
 * Регистрируемся на [GitHub](https://github.com/)
 * Переходим в [codespaces](https://github.com/codespaces)
 и нажимаем в блоке `Blank` -> `Use this template`, ждём загрузки терминал
@@ -14,7 +16,10 @@
 * Вставляем в терминал команду: `curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash`
 * Переходим по ссылке, которую дадут снизу сообщения (там где "Скачать конфиг файлом"), скачиваем файл `WARP.conf`
 * Переносим этот файл в приложение AmneziaWG и подключаемся
+* 
 ### С помощью AmneziaWG через Google Shell
+
+> На данный момент может перестать работать
 
 * Переходим в консоль [Google](https://shell.cloud.google.com/?pli=1&show=ide%2Cterminal)
 
